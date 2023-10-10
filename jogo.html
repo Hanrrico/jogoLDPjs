@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jogo.css">
+    <title>Jogo</title>
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+        
+        </div>
+        <div class="question-container">
+            <h2 id="pergunta"></h2>
+            <div class="alternativas">
+                <button class="alternativa" onclick="verificarResposta(0)"></button>
+                <button class="alternativa" onclick="verificarResposta(1)"></button>
+                <button class="alternativa" onclick="verificarResposta(2)"></button>
+                <button class="alternativa" onclick="verificarResposta(3)"></button>
+            </div>
+        </div>
+        <div class="logo-if">
+            <img src="img/logoif.png" alt="Logo IF" width="200" height="200">
+        </div>
+    </div>
+    <div class="restart-button-container">
+        <button id="restart-button" onclick="reiniciarJogo()">Reiniciar Jogo</button>
+    </div>
+    <script src="jogo.js"></script>
+</body>
+</html>

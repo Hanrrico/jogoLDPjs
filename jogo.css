@@ -1,0 +1,83 @@
+body {
+    background-image: url('img/fundoroxo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.question-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 80%;
+    text-align: center;
+}
+
+
+.logo-if {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+#placar, #cronometro {
+    color: white;
+    font-size: 24px;
+}
+
+
+.alternativas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.alternativa {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.alternativa:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#proxima-pergunta {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+#proxima-pergunta:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
